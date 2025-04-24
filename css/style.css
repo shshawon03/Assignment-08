@@ -1,0 +1,73 @@
+/*font links start*/
+@font-face {
+  src: url(../fonts/playfair_display/playfairdisplay-regular.ttf);
+  font-family: playfairdisplay-regular;
+}
+@font-face {
+  src: url(../fonts/ubuntu/ubuntu-light.ttf);
+  font-family: ubuntu-light;
+}
+/*font links end*/
+/*common start*/
+body {
+  margin: 0px;
+  font-family: playfairdisplay-regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+}
+/*common end*/
+/*header start*/
+header {
+  padding: 35px 0px;
+}
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+}
+.logo {
+  margin-top: 10px;
+  float: left;
+  width: 12%;
+}
+.logo a {}
+.logo a  img {
+  width: 100%;
+}
+.menu {
+  float: right;
+  width: 65%;
+}
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+.menu ul li a {
+  display: inline-block;
+  margin: 0 60px;
+  color: #626262;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  transition: 0.33s linear;
+}
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+.menu ul li a:hover {
+  border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner {}
+.b_img {}
+.b_img img {
+  width: 100%;
+}
+/*banner end*/
+
+
